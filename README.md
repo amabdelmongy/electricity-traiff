@@ -27,7 +27,7 @@ The Onion Architecture is an Architectural Pattern that enables maintainable and
   - [Service](src/Domain/Service/TariffService.cs)
 
 ## Strategy Design Pattern
-![](assets/img/Strategy_Design_Pattern.png)
+![](/assets/img/Strategy_Design_Pattern.png)
   - Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
   - Capture the abstraction in an interface, put all implementation details in derived classes.
 
@@ -95,8 +95,8 @@ Using API url Get action
 Postman print screens
 * Http status :-
   - [200](/assets/img/ok_response.PNG)
-  - [400](/assets/img/error_400.PNG) 
-* [Health](/assets/img/health.PNG) 
+  - [400](/assets/img/error_400.PNG)
+* [Health](/assets/img/Health.PNG)
 
 ## ToDo
 1. Add more unit tests and E2E tests
