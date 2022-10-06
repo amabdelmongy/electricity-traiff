@@ -27,7 +27,7 @@ The Onion Architecture is an Architectural Pattern that enables maintainable and
   - [Service](src/Domain/Service/TariffService.cs)
 
 ## Strategy Design Pattern
-![Strategy Design Pattern](/assets/img/strategy_design_pattern.png)
+![Strategy Design Pattern](/assets/img/Strategy_Design_Pattern.PNG)
   - Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
   - Capture the abstraction in an interface, put all implementation details in derived classes.
 
