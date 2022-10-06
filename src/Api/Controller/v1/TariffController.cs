@@ -45,8 +45,7 @@ public class TariffController : ControllerBase
                 new TariffDto
                 {
                     Name = tariff.Name,
-                    AnnualCost = tariff.AnnualCost,
-                    Consumption = tariff.Consumption
+                    AnnualCost = tariff.AnnualCost
                 }).OrderBy(t=>t.AnnualCost)
             );
     }

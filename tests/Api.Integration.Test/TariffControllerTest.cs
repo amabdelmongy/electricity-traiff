@@ -39,15 +39,13 @@ public class TariffControllerTest
     {
         var exceptedBasicName = "Basic tariff";
         var exceptedPackagedName = "Packaged tariff";
-        var exceptedConsumption = _fixture.Create<int>();
+        var input = _fixture.Create<int>();
 
-        var actualDtos = await ExecuteCall(exceptedConsumption);
+        var actualDtos = await ExecuteCall(input);
 
         Assert.That(actualDtos.Count, Is.EqualTo(2));
         Assert.That(actualDtos[0].Name, Is.EqualTo(exceptedBasicName));
-        Assert.That(actualDtos[0].Consumption, Is.EqualTo(exceptedConsumption));
         Assert.That(actualDtos[1].Name, Is.EqualTo(exceptedPackagedName));
-        Assert.That(actualDtos[1].Consumption, Is.EqualTo(exceptedConsumption));
     }
 
 

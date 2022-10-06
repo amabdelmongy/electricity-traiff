@@ -80,12 +80,10 @@ Using API url Get action
 {
   [
     {
-        "consumption": 3500,
         "name": "Packaged tariff",
         "annualCost": 800
     },
     {
-        "consumption": 3500,
         "name": "Basic tariff",
         "annualCost": 830
     }
